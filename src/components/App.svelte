@@ -9,7 +9,7 @@
 
     onMount(async () => {
 
-        const res = await fetch('https://raw.githubusercontent.com/SM-Figueroa/dsc106_project_group/main/nba_header.csv'); 
+        const res = await fetch('https://raw.githubusercontent.com/SM-Figueroa/dsc106-proj3/main/static/nba.csv'); 
 
         const csv = await res.text();
 
